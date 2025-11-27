@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+archiveVersion = 1;
+classes = {};
+objectVersion = 56;
+objects = {
+
+/* Begin PBXBuildFile section */
+9C4C1E7D29B32A3F00A1F1B10 /* AdsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4C1E7D29B32A3F00A1F1B0 /* AdsManager.swift */; };
+9C4C1E7D29B32A3F00A1F1B21 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4C1E7D29B32A3F00A1F1B20 /* AppDelegate.swift */; };
+9C4C1E7D29B32A3F00A1F1B31 /* CatchTheKnifeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4C1E7D29B32A3F00A1F1B30 /* CatchTheKnifeApp.swift */; };
+9C4C1E7D29B32A3F00A1F1B41 /* DailyChallenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4C1E7D29B32A3F00A1F1B40 /* DailyChallenge.swift */; };
+9C4C1E7D29B32A3F00A1F1B51 /* Haptics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4C1E7D29B32A3F00A1F1B50 /* Haptics.swift */; };
+9C4C1E7D29B32A3F00A1F1B61 /* GameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4C1E7D29B32A3F00A1F1B60 /* GameController.swift */; };
+9C4C1E7D29B32A3F00A1F1B71 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4C1E7D29B32A3F00A1F1B70 /* GameScene.swift */; };
+9C4C1E7D29B32A3F00A1F1B81 /* KnifeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4C1E7D29B32A3F00A1F1B80 /* KnifeNode.swift */; };
+9C4C1E7D29B32A3F00A1F1B91 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4C1E7D29B32A3F00A1F1B90 /* Store.swift */; };
+9C4C1E7D29B32A3F00A1F1BA1 /* HUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4C1E7D29B32A3F00A1F1BA0 /* HUD.swift */; };
+9C4C1E7D29B32A3F00A1F1BB1 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4C1E7D29B32A3F00A1F1BB0 /* MainView.swift */; };
+9C4C1E7D29B32A3F00A1F1BC1 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4C1E7D29B32A3F00A1F1BC0 /* Theme.swift */; };
+9C4C1E7D29B32A3F00A1F1BD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C4C1E7D29B32A3F00A1F1BD0 /* Assets.xcassets */; };
+9C4C1E7D29B32A3F00A1F1BE1 /* Sounds in Resources */ = {isa = PBXBuildFile; fileRef = 9C4C1E7D29B32A3F00A1F1BE0 /* Sounds */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+9C4C1E7D29B32A3F00A1F1B0 /* AdsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdsManager.swift; sourceTree = "<group>"; };
+9C4C1E7D29B32A3F00A1F1B20 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+9C4C1E7D29B32A3F00A1F1B30 /* CatchTheKnifeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatchTheKnifeApp.swift; sourceTree = "<group>"; };
+9C4C1E7D29B32A3F00A1F1B40 /* DailyChallenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyChallenge.swift; sourceTree = "<group>"; };
+9C4C1E7D29B32A3F00A1F1B50 /* Haptics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Haptics.swift; sourceTree = "<group>"; };
+9C4C1E7D29B32A3F00A1F1B60 /* GameController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameController.swift; sourceTree = "<group>"; };
+9C4C1E7D29B32A3F00A1F1B70 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+9C4C1E7D29B32A3F00A1F1B80 /* KnifeNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KnifeNode.swift; sourceTree = "<group>"; };
+9C4C1E7D29B32A3F00A1F1B90 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+9C4C1E7D29B32A3F00A1F1BA0 /* HUD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HUD.swift; sourceTree = "<group>"; };
+9C4C1E7D29B32A3F00A1F1BB0 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+9C4C1E7D29B32A3F00A1F1BC0 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+9C4C1E7D29B32A3F00A1F1BD0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+9C4C1E7D29B32A3F00A1F1BE0 /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sounds; sourceTree = "<group>"; };
+9C4C1E7D29B32A3F00A1F1BF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+9C4C1E7D29B32A3F00A1F1C10 /* CatchTheKnife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatchTheKnife.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+9C4C1E7D29B32A3F00A1F1A8 /* Frameworks */ = {
+isa = PBXFrameworksBuildPhase;
+buildActionMask = 2147483647;
+files = (
+);
+runOnlyForDeploymentPostprocessing = 0;
+};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+9C4C1E7D29B32A3F00A1F1A1 = {
+isa = PBXGroup;
+children = (
+9C4C1E7D29B32A3F00A1F1C00 /* Ads */, 
+9C4C1E7D29B32A3F00A1F1C01 /* App */, 
+9C4C1E7D29B32A3F00A1F1C02 /* Features */, 
+9C4C1E7D29B32A3F00A1F1C03 /* Game */, 
+9C4C1E7D29B32A3F00A1F1C04 /* Monetization */, 
+9C4C1E7D29B32A3F00A1F1C05 /* UI */, 
+9C4C1E7D29B32A3F00A1F1BD0 /* Assets.xcassets */, 
+9C4C1E7D29B32A3F00A1F1BE0 /* Sounds */, 
+9C4C1E7D29B32A3F00A1F1A2 /* Products */,
+);
+sourceTree = "<group>";
+};
+9C4C1E7D29B32A3F00A1F1A2 /* Products */ = {
+isa = PBXGroup;
+children = (
+9C4C1E7D29B32A3F00A1F1C10 /* CatchTheKnife.app */,
+);
+name = Products;
+sourceTree = "<group>";
+};
+9C4C1E7D29B32A3F00A1F1C00 /* Ads */ = {
+isa = PBXGroup;
+children = (
+9C4C1E7D29B32A3F00A1F1B0 /* AdsManager.swift */,
+);
+path = Ads;
+sourceTree = "<group>";
+};
+9C4C1E7D29B32A3F00A1F1C01 /* App */ = {
+isa = PBXGroup;
+children = (
+9C4C1E7D29B32A3F00A1F1B20 /* AppDelegate.swift */,
+9C4C1E7D29B32A3F00A1F1B30 /* CatchTheKnifeApp.swift */,
+9C4C1E7D29B32A3F00A1F1BF0 /* Info.plist */,
+);
+path = App;
+sourceTree = "<group>";
+};
+9C4C1E7D29B32A3F00A1F1C02 /* Features */ = {
+isa = PBXGroup;
+children = (
+9C4C1E7D29B32A3F00A1F1B40 /* DailyChallenge.swift */,
+9C4C1E7D29B32A3F00A1F1B50 /* Haptics.swift */,
+);
+path = Features;
+sourceTree = "<group>";
+};
+9C4C1E7D29B32A3F00A1F1C03 /* Game */ = {
+isa = PBXGroup;
+children = (
+9C4C1E7D29B32A3F00A1F1B60 /* GameController.swift */,
+9C4C1E7D29B32A3F00A1F1B70 /* GameScene.swift */,
+9C4C1E7D29B32A3F00A1F1B80 /* KnifeNode.swift */,
+);
+path = Game;
+sourceTree = "<group>";
+};
+9C4C1E7D29B32A3F00A1F1C04 /* Monetization */ = {
+isa = PBXGroup;
+children = (
+9C4C1E7D29B32A3F00A1F1B90 /* Store.swift */,
+);
+path = Monetization;
+sourceTree = "<group>";
+};
+9C4C1E7D29B32A3F00A1F1C05 /* UI */ = {
+isa = PBXGroup;
+children = (
+9C4C1E7D29B32A3F00A1F1BA0 /* HUD.swift */,
+9C4C1E7D29B32A3F00A1F1BB0 /* MainView.swift */,
+9C4C1E7D29B32A3F00A1F1BC0 /* Theme.swift */,
+);
+path = UI;
+sourceTree = "<group>";
+};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+9C4C1E7D29B32A3F00A1F1A3 /* CatchTheKnife */ = {
+isa = PBXNativeTarget;
+buildConfigurationList = 9C4C1E7D29B32A3F00A1F1A5 /* Build configuration list for PBXNativeTarget "CatchTheKnife" */;
+buildPhases = (
+9C4C1E7D29B32A3F00A1F1A6 /* Sources */,
+9C4C1E7D29B32A3F00A1F1A8 /* Frameworks */,
+9C4C1E7D29B32A3F00A1F1A7 /* Resources */,
+);
+buildRules = (
+);
+dependencies = (
+);
+name = CatchTheKnife;
+productName = CatchTheKnife;
+productReference = 9C4C1E7D29B32A3F00A1F1C10 /* CatchTheKnife.app */;
+productType = "com.apple.product-type.application";
+};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+9C4C1E7D29B32A3F00A1F1A0 /* Project object */ = {
+isa = PBXProject;
+attributes = {
+BuildIndependentTargetsInParallel = YES;
+LastSwiftUpdateCheck = 1500;
+LastUpgradeCheck = 1500;
+TargetAttributes = {
+9C4C1E7D29B32A3F00A1F1A3 = {
+DevelopmentTeam = "";
+};
+};
+};
+buildConfigurationList = 9C4C1E7D29B32A3F00A1F1A4 /* Build configuration list for PBXProject "CatchTheKnife" */;
+compatibilityVersion = "Xcode 14.0";
+developmentRegion = en;
+hasScannedForEncodings = 0;
+knownRegions = (
+en,
+Base,
+);
+mainGroup = 9C4C1E7D29B32A3F00A1F1A1;
+productRefGroup = 9C4C1E7D29B32A3F00A1F1A2 /* Products */;
+projectDirPath = "";
+projectRoot = "";
+targets = (
+9C4C1E7D29B32A3F00A1F1A3 /* CatchTheKnife */,
+);
+};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+9C4C1E7D29B32A3F00A1F1A7 /* Resources */ = {
+isa = PBXResourcesBuildPhase;
+buildActionMask = 2147483647;
+files = (
+9C4C1E7D29B32A3F00A1F1BD1 /* Assets.xcassets in Resources */,
+9C4C1E7D29B32A3F00A1F1BE1 /* Sounds in Resources */,
+);
+runOnlyForDeploymentPostprocessing = 0;
+};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+9C4C1E7D29B32A3F00A1F1A6 /* Sources */ = {
+isa = PBXSourcesBuildPhase;
+buildActionMask = 2147483647;
+files = (
+9C4C1E7D29B32A3F00A1F1B10 /* AdsManager.swift in Sources */,
+9C4C1E7D29B32A3F00A1F1B21 /* AppDelegate.swift in Sources */,
+9C4C1E7D29B32A3F00A1F1B31 /* CatchTheKnifeApp.swift in Sources */,
+9C4C1E7D29B32A3F00A1F1B41 /* DailyChallenge.swift in Sources */,
+9C4C1E7D29B32A3F00A1F1B51 /* Haptics.swift in Sources */,
+9C4C1E7D29B32A3F00A1F1B61 /* GameController.swift in Sources */,
+9C4C1E7D29B32A3F00A1F1B71 /* GameScene.swift in Sources */,
+9C4C1E7D29B32A3F00A1F1B81 /* KnifeNode.swift in Sources */,
+9C4C1E7D29B32A3F00A1F1B91 /* Store.swift in Sources */,
+9C4C1E7D29B32A3F00A1F1BA1 /* HUD.swift in Sources */,
+9C4C1E7D29B32A3F00A1F1BB1 /* MainView.swift in Sources */,
+9C4C1E7D29B32A3F00A1F1BC1 /* Theme.swift in Sources */,
+);
+runOnlyForDeploymentPostprocessing = 0;
+};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+9C4C1E7D29B32A3F00A1F1A9 /* Debug */ = {
+isa = XCBuildConfiguration;
+buildSettings = {
+ALWAYS_SEARCH_USER_PATHS = NO;
+CLANG_ANALYZER_NONNULL = YES;
+CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+CLANG_ENABLE_MODULES = YES;
+CLANG_ENABLE_OBJC_ARC = YES;
+CLANG_ENABLE_OBJC_WEAK = YES;
+CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+CLANG_WARN_BOOL_CONVERSION = YES;
+CLANG_WARN_COMMA = YES;
+CLANG_WARN_CONSTANT_CONVERSION = YES;
+CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+CLANG_WARN_EMPTY_BODY = YES;
+CLANG_WARN_ENUM_CONVERSION = YES;
+CLANG_WARN_INFINITE_RECURSION = YES;
+CLANG_WARN_INT_CONVERSION = YES;
+CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+CLANG_WARN_STRICT_PROTOTYPES = YES;
+CLANG_WARN_SUSPICIOUS_MOVE = YES;
+CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+CLANG_WARN_UNREACHABLE_CODE = YES;
+CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+CODE_SIGN_STYLE = Automatic;
+COPY_PHASE_STRIP = NO;
+CURRENT_PROJECT_VERSION = 1;
+DEVELOPMENT_TEAM = "";
+DEBUG_INFORMATION_FORMAT = dwarf;
+GCC_C_LANGUAGE_STANDARD = gnu11;
+GCC_DYNAMIC_NO_PIC = NO;
+GCC_NO_COMMON_BLOCKS = YES;
+GCC_OPTIMIZATION_LEVEL = 0;
+GCC_PREPROCESSOR_DEFINITIONS = (
+"DEBUG=1",
+"$(inherited)",
+);
+GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+GCC_WARN_UNDECLARED_SELECTOR = YES;
+GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+GCC_WARN_UNUSED_FUNCTION = YES;
+GCC_WARN_UNUSED_VARIABLE = YES;
+IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+MTL_FAST_MATH = YES;
+ONLY_ACTIVE_ARCH = YES;
+PRODUCT_NAME = "$(TARGET_NAME)";
+SDKROOT = iphoneos;
+SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+SWIFT_VERSION = 5.0;
+TARGETED_DEVICE_FAMILY = "1,2";
+};
+name = Debug;
+};
+9C4C1E7D29B32A3F00A1F1AA /* Release */ = {
+isa = XCBuildConfiguration;
+buildSettings = {
+ALWAYS_SEARCH_USER_PATHS = NO;
+CLANG_ANALYZER_NONNULL = YES;
+CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+CLANG_ENABLE_MODULES = YES;
+CLANG_ENABLE_OBJC_ARC = YES;
+CLANG_ENABLE_OBJC_WEAK = YES;
+CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+CLANG_WARN_BOOL_CONVERSION = YES;
+CLANG_WARN_COMMA = YES;
+CLANG_WARN_CONSTANT_CONVERSION = YES;
+CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+CLANG_WARN_EMPTY_BODY = YES;
+CLANG_WARN_ENUM_CONVERSION = YES;
+CLANG_WARN_INFINITE_RECURSION = YES;
+CLANG_WARN_INT_CONVERSION = YES;
+CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+CLANG_WARN_STRICT_PROTOTYPES = YES;
+CLANG_WARN_SUSPICIOUS_MOVE = YES;
+CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+CLANG_WARN_UNREACHABLE_CODE = YES;
+CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+CODE_SIGN_STYLE = Automatic;
+COPY_PHASE_STRIP = NO;
+CURRENT_PROJECT_VERSION = 1;
+DEVELOPMENT_TEAM = "";
+GCC_C_LANGUAGE_STANDARD = gnu11;
+GCC_NO_COMMON_BLOCKS = YES;
+GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+GCC_WARN_UNDECLARED_SELECTOR = YES;
+GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+GCC_WARN_UNUSED_FUNCTION = YES;
+GCC_WARN_UNUSED_VARIABLE = YES;
+IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+MTL_ENABLE_DEBUG_INFO = NO;
+MTL_FAST_MATH = YES;
+PRODUCT_NAME = "$(TARGET_NAME)";
+SDKROOT = iphoneos;
+SWIFT_COMPILATION_MODE = wholemodule;
+SWIFT_OPTIMIZATION_LEVEL = "-O";
+SWIFT_VERSION = 5.0;
+TARGETED_DEVICE_FAMILY = "1,2";
+VALIDATE_PRODUCT = YES;
+};
+name = Release;
+};
+9C4C1E7D29B32A3F00A1F1AB /* Debug */ = {
+isa = XCBuildConfiguration;
+buildSettings = {
+ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+CODE_SIGN_STYLE = Automatic;
+CURRENT_PROJECT_VERSION = 1;
+DEVELOPMENT_TEAM = "";
+INFOPLIST_FILE = App/Info.plist;
+IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+MARKETING_VERSION = 1.0;
+PRODUCT_BUNDLE_IDENTIFIER = com.example.CatchTheKnife;
+PRODUCT_NAME = "$(TARGET_NAME)";
+SDKROOT = iphoneos;
+SWIFT_EMIT_LOC_STRINGS = YES;
+SWIFT_VERSION = 5.0;
+TARGETED_DEVICE_FAMILY = "1,2";
+};
+name = Debug;
+};
+9C4C1E7D29B32A3F00A1F1AC /* Release */ = {
+isa = XCBuildConfiguration;
+buildSettings = {
+ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+CODE_SIGN_STYLE = Automatic;
+CURRENT_PROJECT_VERSION = 1;
+DEVELOPMENT_TEAM = "";
+INFOPLIST_FILE = App/Info.plist;
+IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+MARKETING_VERSION = 1.0;
+PRODUCT_BUNDLE_IDENTIFIER = com.example.CatchTheKnife;
+PRODUCT_NAME = "$(TARGET_NAME)";
+SDKROOT = iphoneos;
+SWIFT_EMIT_LOC_STRINGS = YES;
+SWIFT_VERSION = 5.0;
+TARGETED_DEVICE_FAMILY = "1,2";
+};
+name = Release;
+};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+9C4C1E7D29B32A3F00A1F1A4 /* Build configuration list for PBXProject "CatchTheKnife" */ = {
+isa = XCConfigurationList;
+buildConfigurations = (
+9C4C1E7D29B32A3F00A1F1A9 /* Debug */,
+9C4C1E7D29B32A3F00A1F1AA /* Release */,
+);
+defaultConfigurationIsVisible = 0;
+defaultConfigurationName = Release;
+};
+9C4C1E7D29B32A3F00A1F1A5 /* Build configuration list for PBXNativeTarget "CatchTheKnife" */ = {
+isa = XCConfigurationList;
+buildConfigurations = (
+9C4C1E7D29B32A3F00A1F1AB /* Debug */,
+9C4C1E7D29B32A3F00A1F1AC /* Release */,
+);
+defaultConfigurationIsVisible = 0;
+defaultConfigurationName = Release;
+};
+/* End XCConfigurationList section */
+};
+rootObject = 9C4C1E7D29B32A3F00A1F1A0 /* Project object */;
+}
